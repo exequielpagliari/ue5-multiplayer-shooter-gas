@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProtocolRiftArena",
+			"Path": "..\\Source\\ProtocolRiftArena.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProtocolRiftArenaEditor",
+			"Path": "..\\Source\\ProtocolRiftArenaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

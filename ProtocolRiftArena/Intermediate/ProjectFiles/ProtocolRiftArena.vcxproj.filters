@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\ProtocolRiftArena.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProtocolRiftArena.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProtocolRiftArenaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\ProtocolRiftArena">
+      <UniqueIdentifier>{7E0DCA2D-3147-3FEB-95C0-016770F6F402}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArena.Build.cs">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArena.cpp">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArena.h">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArenaCharacter.cpp">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArenaCharacter.h">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArenaGameMode.cpp">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArenaGameMode.h">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArenaPlayerController.cpp">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\ProtocolRiftArenaPlayerController.h">
+      <Filter>Source\ProtocolRiftArena</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Combat">
+      <UniqueIdentifier>{2D0EAC04-D979-3830-869C-1A3164C04995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Combat\AI">
+      <UniqueIdentifier>{790FEEF7-72A8-324B-BDCA-1ACFE38D6999}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Combat\Animation">
+      <UniqueIdentifier>{8F2F428C-3D55-301E-BDB1-D51C4B71ACFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{6B50EC22-D259-37ED-90CA-553D1B6D2D4D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{70A02F3E-F55E-3CB0-904A-79ECF6A2798E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Combat\UI">
+      <UniqueIdentifier>{3BD729F8-EDA4-3BD8-8535-AFB642DFADBB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Platforming">
+      <UniqueIdentifier>{CBAEDE2D-720C-3A1B-B3EE-CB22111D943C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProtocolRiftArena\Variant_Platforming\Animation">
+      <UniqueIdentifier>{26B3C091-FA95-3129-BB57-FDF36CB2828C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\ProtocolRiftArena\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_SideScrolling">
+      <UniqueIdentifier>{CDB52DCA-B410-3479-B482-88335EA4319E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProtocolRiftArena\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{3D491AE7-F938-3F4B-83C5-77818EFCF224}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{D16ADE11-94CE-36ED-A7D9-3D8E67B9E7E4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{9BDECDEF-9737-3E5B-9FAA-BBBC1668A3A3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProtocolRiftArena\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{80AFC4A6-18A6-312D-BED0-06B19AA06CA3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProtocolRiftArena\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\ProtocolRiftArena\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
